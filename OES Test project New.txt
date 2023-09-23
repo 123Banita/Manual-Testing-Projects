@@ -1,0 +1,3445 @@
+Test Scenario:1( Registration)
+
+Bug Title: Unable to Register User
+
+Bug Description:
+I encountered an issue while trying to register a new user on the website. After filling out the registration form and clicking the "Register" button, the registration process does not complete, and an error message is displayed instead.
+
+Steps to Reproduce:
+
+Navigate to the website's registration page.
+Fill out the required fields in the registration form, including username, email, password, and any other necessary details.
+Double-check that all entered information is accurate.
+Click on the "Register" or "Sign Up" button to submit the registration form.
+Expected Results:
+
+After clicking the "Register" button, the registration process should complete successfully.
+The user should receive a confirmation message indicating successful registration.
+The user's information should be saved, and they should be able to log in using the registered credentials.
+Actual Results:
+
+After clicking the "Register" button, an error message appears on the screen.
+The error message states that the registration process could not be completed and provides no further details.
+Attachments:
+
+Attach a screenshot of the error message for reference.
+
+---------------------------------------------------------------
+
+
+
+Test Scenario:2(Login issue)
+
+Certainly, here's how you could structure a bug report for the issue of being unable to login, with different scenarios outlined:
+
+Bug Title: Unable to Login
+
+Bug Description:
+I'm experiencing difficulties while attempting to log in to the website. Multiple scenarios have been tested, but in each case, I encounter an error preventing successful login.
+
+Scenario 1: Invalid Username
+
+Steps to Reproduce:
+
+Navigate to the website's login page.
+Enter an incorrect username in the username field.
+Enter a valid password.
+Click the "Login" button.
+Expected Results:
+
+An error message should appear indicating that the username is incorrect.
+The user should not be able to proceed to the next step of the login process.
+Actual Results:
+
+The error message "Invalid username" is displayed.
+The user is unable to proceed with the login process.
+Scenario 2: Incorrect Password
+
+Steps to Reproduce:
+
+Navigate to the website's login page.
+Enter a valid username in the username field.
+Enter an incorrect password.
+Click the "Login" button.
+Expected Results:
+
+An error message should appear indicating that the password is incorrect.
+The user should not be able to proceed to the next step of the login process.
+Actual Results:
+
+The error message "Incorrect password" is displayed.
+The user is unable to proceed with the login process.
+Scenario 3: Correct Credentials
+
+Steps to Reproduce:
+
+Navigate to the website's login page.
+Enter a valid username in the username field.
+Enter the correct password associated with the username.
+Click the "Login" button.
+Expected Results:
+
+The user should be logged in successfully and directed to the appropriate dashboard or landing page.
+Actual Results:
+
+After clicking the "Login" button, the page refreshes but the user remains on the login page.
+The user is not logged in and is unable to access the account.
+Attachments:
+
+Attach screenshots of the error messages encountered in each scenario.
+
+
+
+-------------------------------------------------------------------------------
+
+Test Scenario:3(Forgot Password)
+
+Bug Title: Forgot Password Functionality Not Working
+
+Bug Description:
+The "Forgot Password" feature on the website is not functioning as expected. When attempting to reset a forgotten password, the process does not complete successfully, and users are unable to regain access to their accounts.
+
+Steps to Reproduce:
+
+Navigate to the website's login page.
+Click on the "Forgot Password" link or button to initiate the password reset process.
+Enter the email address associated with the account.
+Submit the email address to proceed with the password reset.
+Expected Results:
+
+After submitting the email address, the user should receive an email containing instructions for resetting their password.
+The email should provide a secure link or code to reset the password.
+Actual Results:
+
+After entering the email address and submitting, no email is received for password reset.
+No instructions or links for resetting the password are provided to the user.
+
+
+
+----------------------------------------------------------------------------
+Test Scenario:4(OTP option for account verification)
+
+Bug Title: Not Receiving OTP for Account Verification
+
+Bug Description:
+The system is not sending the expected One-Time Password (OTP) for account verification to the registered email address. As a result, users are unable to complete the account verification process.
+
+Steps to Reproduce:
+
+Sign up for a new account on the website.
+Reach the step where an OTP is required for account verification.
+Wait for the email containing the OTP to arrive in the registered email inbox.
+Expected Results:
+
+Upon reaching the account verification step, an email containing the OTP should be sent to the registered email address.
+The email should arrive within a reasonable timeframe, allowing users to enter the OTP and verify their accounts.
+Actual Results:
+
+After waiting for an extended period of time, no email containing the OTP is received.
+The user is unable to proceed with account verification due to the absence of the required OTP.
+
+
+
+
+---------------------------------------------------------------------------------------
+Test Scenario:5(OTP option)
+
+Bug Title: Not Receiving OTP for Login to the Account
+
+Bug Description:
+Users are not receiving the expected One-Time Password (OTP) for logging into their accounts. This issue prevents users from accessing their accounts securely through the OTP-based login process.
+
+Steps to Reproduce:
+
+Visit the website's login page.
+Enter the registered username and password.
+Click the "Login" button to proceed.
+Wait for the OTP to arrive via email or SMS.
+Expected Results:
+
+After submitting the login credentials, an OTP should be sent to the registered email or phone number.
+The OTP should be received within a reasonable timeframe, enabling users to enter it and successfully log into their accounts.
+Actual Results:
+
+After submitting the login credentials, no OTP is received via email or SMS.
+Users are unable to proceed with the login process since they cannot enter the required OTP.
+
+------------------------------------------------------------------------------------------------
+Test Scenario:6(OES Dashboard)
+
+Bug Title: OES Dashboard Loading as Blank Page
+
+Bug Description:
+Upon accessing the OES dashboard, the page is loading but displaying as a blank, empty page. This issue prevents users from accessing the expected dashboard content and functionalities.
+
+Steps to Reproduce:
+
+Log in to the OES system using valid credentials.
+After successful login, the dashboard should automatically load.
+Expected Results:
+
+After logging in, the OES dashboard should load and display relevant content and information.
+Users should be able to view their courses, announcements, and other dashboard components.
+Actual Results:
+
+Upon logging in, the dashboard page is loading as a completely blank, white page.
+No content, menus, or information are displayed on the page.
+
+
+--------------------------------------------------------
+Test Scenario:7(Missing Profile details)
+
+Bug Title: Missing Profile Information
+
+Bug Description:
+Upon accessing the user profile section, certain information that should be displayed is missing. Users are unable to view or edit their profile details as expected.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Navigate to the user profile section (e.g., "My Account" or "Profile Settings").
+Expected Results:
+
+Upon accessing the user profile section, all relevant profile information should be displayed, including name, contact details, and any other associated data.
+Users should be able to view and edit their profile information as needed.
+Actual Results:
+
+When accessing the user profile section, some profile information is missing from the displayed page.
+Certain fields that should contain data, such as name, email, and contact number, are not visible.
+
+------------------------------------------------------------------------------------
+
+Test Scenario:8(Edit Profile details)
+
+Bug Title: Unable to Edit/Update Profile Details in OES Account
+
+Bug Description:
+Users are encountering difficulties when attempting to edit or update their profile details in the OES (Online Education System) account. This issue prevents users from making necessary changes to their account information.
+
+Steps to Reproduce:
+
+Log in to the OES account using valid credentials.
+Navigate to the user profile or account settings section.
+Attempt to edit or update any of the profile details (e.g., name, email, contact information).
+Click the "Save" or "Update" button to apply the changes.
+Expected Results:
+
+Users should be able to successfully edit and update their profile details.
+After clicking the "Save" or "Update" button, the changes should be reflected in the user's profile.
+Actual Results:
+
+After attempting to edit and update profile details, the changes are not being saved.
+Clicking the "Save" or "Update" button does not result in any changes to the user's profile information.
+
+------------------------------------------------------------------------------------------------
+
+
+Test Scenario:9(Save Button)
+
+Bug Title: Save Button Not Working When Updating Profile Details
+
+Bug Description:
+When attempting to update profile details within the user account settings, the "Save" button is unresponsive. As a result, users are unable to apply changes to their profile information.
+
+Steps to Reproduce:
+
+Log in to the user account within the system.
+Navigate to the account settings or profile editing section.
+Make any necessary changes to the profile details (e.g., name, email, contact information).
+Click the "Save" button to apply the changes.
+Expected Results:
+
+After making changes to the profile details, clicking the "Save" button should successfully apply and save the modifications.
+Users should see a confirmation message indicating that the changes have been saved.
+Actual Results:
+
+After clicking the "Save" button, nothing happens. The page does not respond, and the changes are not saved.
+The profile details remain unchanged, and no confirmation message is displayed.
+Attachments:
+
+Attach a screenshot or video demonstrating the process of attempting to update profile details and clicking the "Save" button.
+
+--------------------------------------------------------------------------------------------------------------
+
+Test Scenario:10(Profile Dropdown Button)
+
+Bug Title: Profile Dropdown Button Not Working in OES Account
+
+Bug Description:
+Users are unable to access or interact with the profile dropdown button within the OES (Online Education System) account interface. Clicking on the button does not trigger the expected dropdown menu.
+
+Steps to Reproduce:
+
+Log in to the OES account using valid credentials.
+Locate and click on the profile dropdown button (usually represented by the user's name or profile picture).
+Expected Results:
+
+Clicking on the profile dropdown button should trigger the appearance of a dropdown menu.
+The dropdown menu should contain options related to the user's account, such as profile settings, account settings, and logout.
+Actual Results:
+
+Clicking on the profile dropdown button does not display the expected dropdown menu.
+No response is observed when attempting to interact with the button.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when clicking on the profile dropdown button.
+
+----------------------------------------------------------------------------------------
+
+
+Test Scenario:11(Click on Usermanual)
+
+
+Bug Title: Clicking on "User Manual" Option Does Not Display Content
+
+Bug Description:
+Upon clicking on the "User Manual" option, no content is appearing on the screen as expected. Users are unable to access the user manual, which prevents them from accessing important documentation.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Locate the "User Manual" option, typically found in the navigation menu or a related section.
+Click on the "User Manual" option to access the manual's content.
+Expected Results:
+
+Clicking on the "User Manual" option should open a new page or modal window displaying the content of the user manual.
+Users should be able to view the manual's content, including text, images, and instructions.
+Actual Results:
+
+After clicking on the "User Manual" option, no content is displayed on the screen.
+The screen remains blank, and no information from the user manual is visible.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when clicking on the "User Manual" option.
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Test Scenario:12(Download Usermanual)
+
+Bug Title: Unable to Download User Manual
+
+Bug Description:
+Users are encountering difficulties when attempting to download the user manual from the designated location. This issue prevents users from accessing the manual's content for offline use.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Navigate to the section where the user manual is provided (e.g., "Help," "Documentation").
+Locate the download link or button for the user manual.
+Click on the download link to initiate the download process.
+Expected Results:
+
+Clicking on the download link for the user manual should initiate the download process.
+Users should be able to download the user manual document in a suitable format (e.g., PDF, DOCX).
+Actual Results:
+
+After clicking on the download link for the user manual, no download process is initiated.
+The user manual document is not downloaded, and no indication of a download is observed.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to download the user manual.
+
+
+---------------------------------------------------------------------------------------------------------
+
+Test Scenario:13(Delete Account)
+
+Bug Title: Unable to Delete Registered Account
+
+Bug Description:
+Users are encountering difficulties when attempting to delete a registered account within the system. This issue prevents users from successfully deleting their accounts as intended.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Navigate to the account settings or profile management section.
+Locate the option to delete the account (e.g., "Delete Account," "Deactivate Account").
+Follow the prompts to initiate the account deletion process.
+Expected Results:
+
+Following the account deletion process should result in the successful removal of the user's account from the system.
+Users should receive confirmation of the account deletion and be logged out from the system.
+Actual Results:
+
+After initiating the account deletion process, no action is taken, and the account remains active.
+Users do not receive any confirmation of the account deletion, and their accounts remain accessible.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to delete the registered account.
+
+
+---------------------------------------------------------------------------------------------------------------
+
+Test Scenario:14(Language Change Option)
+
+Bug Title: Language Change Option Not Visible in OES Dashboard
+
+Bug Description:
+Users are unable to locate the option to change the language within the OES dashboard. This issue prevents users from adjusting the language settings according to their preferences.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the dashboard or account settings section.
+Look for an option to change the language of the dashboard interface.
+Expected Results:
+
+Users should be able to easily locate an option to change the language within the dashboard settings.
+The option to change the language should be clearly labeled and accessible.
+Actual Results:
+
+After exploring the dashboard settings, users are unable to find an option to change the language.
+The language change option is not visible within the settings interface.
+Attachments:
+
+Attach a screenshot or video demonstrating the absence of the language change option in the OES dashboard.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:15(Language Change Option)
+
+Bug Title: Language Change Option Not Functional When Clicked
+
+Bug Description:
+Users are encountering issues when attempting to change the language within the OES (Online Education System) dashboard. Clicking on the language change option does not result in any change to the interface language.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Locate the language change option, typically found in the dashboard settings or account settings.
+Click on the language change option to select a different language.
+Expected Results:
+
+Clicking on the language change option should open a menu or prompt where users can select a different language.
+After selecting a new language, the dashboard interface should be updated to display content in the chosen language.
+Actual Results:
+
+After clicking on the language change option, no menu or prompt appears.
+The dashboard interface remains unchanged, and the selected language is not applied.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when clicking on the language change option.
+---------------------------------------------------------------------------------------------------------
+
+Test Scenario:16(Become an Affiliate)
+
+Bug Title: "Become an Affiliate" Option Not Visible in OES Dashboard
+
+Bug Description:
+Users are unable to locate the "Become an Affiliate" option within the OES dashboard. This issue prevents users from accessing information or resources related to the affiliate program.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to different sections of the dashboard interface to locate the "Become an Affiliate" option.
+Expected Results:
+
+Users should be able to find a clearly labeled and accessible option to become an affiliate within the dashboard.
+The "Become an Affiliate" option should be prominently displayed in relevant sections of the dashboard.
+Actual Results:
+
+After exploring different sections of the dashboard, users are unable to find the "Become an Affiliate" option.
+The option to become an affiliate is not visible in any of the dashboard sections.
+Attachments:
+
+Attach a screenshot or video demonstrating the absence of the "Become an Affiliate" option in the OES dashboard.
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:17(My Affiliate link)
+
+
+Bug Title: Unable to Generate Affiliate Link
+
+Bug Description:
+Users are facing difficulties when attempting to generate their affiliate link within the OES (Online Education System) dashboard. This issue prevents users from obtaining the link necessary for affiliate promotions.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the "Affiliate" or "Promotions" section where the affiliate link generation option is expected.
+Locate the option to generate the affiliate link.
+Attempt to generate the affiliate link by following the required steps.
+Expected Results:
+
+Users should be able to easily locate an option to generate their unique affiliate link.
+After initiating the affiliate link generation process, users should receive a valid and functional affiliate link.
+Actual Results:
+
+Despite following the steps to generate the affiliate link, no link is generated or provided to the user.
+The affiliate link remains unavailable, and users are unable to proceed with promoting the affiliate program.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to generate the affiliate link.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Test Scenario:18(Share affiliate link)
+
+Bug Title: Unable to Share Generated Affiliate Link
+
+Bug Description:
+Users are encountering difficulties when attempting to share a generated affiliate link with others. This issue prevents users from effectively promoting the affiliate program.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the "Affiliate" or "Promotions" section where the affiliate link generation and sharing options are expected.
+Locate the option to share the generated affiliate link.
+Attempt to share the affiliate link through the provided sharing mechanisms (e.g., social media sharing buttons, copy-to-clipboard functionality).
+Expected Results:
+
+Users should be able to easily find and use the sharing option for the generated affiliate link.
+After attempting to share the affiliate link, users should be able to select sharing platforms or copy the link for distribution.
+Actual Results:
+
+Despite attempting to use the sharing option for the generated affiliate link, no sharing mechanisms or copying functionality are available.
+Users are unable to proceed with sharing the affiliate link to promote the affiliate program.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to share the generated affiliate link.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Test Scenario:19(NDA signature)
+
+Bug Title: Unable to Sign Non-Disclosure Agreement (NDA)
+
+Bug Description:
+Users are experiencing difficulties when attempting to sign the Non-Disclosure Agreement (NDA) within the system. This issue prevents users from acknowledging and agreeing to the terms of the NDA.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Locate and access the section or link related to the NDA signing process.
+Follow the prompts to sign the NDA and indicate agreement to its terms.
+Expected Results:
+
+Users should be able to easily locate the NDA signing section or link.
+After initiating the NDA signing process, users should be presented with the terms of the NDA and the option to sign.
+Actual Results:
+
+Upon accessing the NDA signing section or link, no terms of the NDA are presented, and no option to sign is provided.
+Users are unable to proceed with acknowledging and agreeing to the NDA terms.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to sign the NDA.
+
+--------------------------------------------------------------------------------------------------------
+
+Test Scenario:20(NDA signature)
+
+Bug Title: Missing NDA Signature
+
+Bug Description:
+Users are encountering a situation where their NDA (Non-Disclosure Agreement) signature is not being recorded within the system. This issue prevents users from acknowledging and confirming their agreement to the terms of the NDA.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Navigate to the NDA signing section or link within the user account settings.
+Follow the prompts to sign the NDA and confirm agreement to its terms.
+Expected Results:
+
+After successfully signing the NDA, users' signatures should be recorded and associated with their accounts.
+Users should receive confirmation that their NDA signature has been successfully submitted.
+Actual Results:
+
+Despite successfully completing the NDA signing process, users' signatures are not recorded within the system.
+There is no indication or confirmation that the NDA signature has been received and associated with the user's account.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to sign the NDA and the lack of confirmation.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:21(NDA signature)
+
+Bug Title: Unable to Update Nationality in OES
+
+Bug Description:
+Users are experiencing difficulties when attempting to update their nationality information within the OES system. This issue prevents users from reflecting accurate nationality details in their profiles.
+
+Steps to Reproduce:
+
+Log in to the OES system using valid credentials.
+Navigate to the account settings or profile editing section where nationality information can be updated.
+Attempt to modify the nationality field to a different value.
+Click the "Save" or "Update" button to apply the changes.
+Expected Results:
+
+Users should be able to easily locate the nationality field within the profile settings.
+After making changes to the nationality field, clicking the "Save" or "Update" button should successfully save the modifications.
+Actual Results:
+
+Despite attempting to update the nationality field, the changes are not reflected after clicking the "Save" or "Update" button.
+The nationality information remains unchanged in the user's profile.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to update the nationality information.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:22(NDA signature)
+
+Bug Title: Unable to Reset NDA Signature
+
+Bug Description:
+Users are encountering difficulties when attempting to reset their NDA (Non-Disclosure Agreement) signature within the system. This issue prevents users from re-acknowledging the terms of the NDA.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Navigate to the NDA section or link within the user account settings.
+Attempt to locate an option to reset or re-sign the NDA.
+Follow any provided prompts to reset the NDA signature.
+Expected Results:
+
+Users should be able to locate a clear option to reset or re-sign the NDA.
+After initiating the reset process, users should be guided through re-acknowledging and re-signing the NDA.
+Actual Results:
+
+Despite attempting to locate the option to reset the NDA signature, no such option is visible.
+Users are unable to proceed with resetting their NDA signature.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to reset the NDA signature.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:23(Affiliate link)
+
+Bug Title: Unable to Send Affiliate Link for Registration
+
+Bug Description:
+Users are experiencing difficulties when attempting to send the affiliate registration link to potential affiliates. This issue prevents users from sharing the link required for registration in the affiliate program.
+
+Steps to Reproduce:
+
+Log in to the system using valid credentials.
+Locate the section or feature that allows users to send the affiliate registration link to others.
+Attempt to generate and send the affiliate link to a potential affiliate's email or contact.
+Expected Results:
+
+Users should be able to easily generate the affiliate registration link.
+After generating the link, users should be able to share it with potential affiliates via email or other means.
+Actual Results:
+
+Despite attempting to generate and send the affiliate registration link, no mechanism or option is available for sharing.
+Users are unable to proceed with sending the affiliate link to potential affiliates.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:24(Affiliate link)
+
+Bug Title: Unable to Register Using Affiliate Link
+
+Bug Description:
+Users are encountering difficulties when attempting to register using an affiliate link provided to them. This issue prevents users from successfully completing the registration process through the affiliate link.
+
+Steps to Reproduce:
+
+Click on the affiliate registration link provided by the affiliate promoter.
+Follow the provided link to the registration page.
+Enter the required registration information, such as personal details, email, and password.
+Complete any necessary steps for registration.
+Expected Results:
+
+Users should be able to access the registration page through the affiliate link.
+After entering the required information and completing the registration process, users should receive a confirmation of successful registration.
+Actual Results:
+
+After clicking on the affiliate registration link, users are not directed to the registration page or encounter errors during the process.
+Users are unable to complete the registration using the affiliate link.
+
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to register using the affiliate link.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:25(Wallet balance)
+
+Bug Title: Wallet Balance Not Displayed in OES Dashboard
+
+Bug Description:
+Users are experiencing an issue where their wallet balance is not being displayed within the OES dashboard. This issue prevents users from tracking their available funds for transactions within the system.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the section or area where the wallet balance should be displayed (e.g., "Wallet," "Account Balance").
+Observe the dashboard interface to check if the wallet balance is visible.
+Expected Results:
+
+Users should be able to easily locate their wallet balance within the dashboard interface.
+The wallet balance should be displayed prominently, allowing users to see their available funds for transactions.
+Actual Results:
+
+After navigating to the appropriate section, the wallet balance is not displayed within the dashboard interface.
+Users are unable to view their wallet balance, and no information about available funds is shown.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue of the missing wallet balance in the OES dashboard.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:26(Wallet balance)
+
+Bug Title: Recent Transactions Not Displayed in Wallet's Transaction History
+
+Bug Description:
+Users are encountering an issue where recent transactions are not being displayed in the "Transaction History" section of their wallet within the OES (Online Education System) dashboard. This issue prevents users from tracking their recent financial activities accurately.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the "Wallet" or "Account" section where the "Transaction History" is located.
+Review the "Transaction History" section to check for the presence of recent transactions.
+Expected Results:
+
+Users should be able to easily access and view recent transactions in the "Transaction History" section of their wallet.
+The "Transaction History" should accurately reflect the user's recent financial activities.
+Actual Results:
+
+After accessing the "Transaction History" section, recent transactions are not displayed.
+Users are unable to view their recent financial activities, and the "Transaction History" remains empty.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue of recent transactions not being displayed in the "Transaction History."
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Test Scenario:27(Chatbot)
+
+Bug Title: Chatbot Not Visible in OES Account
+
+Bug Description:
+Users are encountering difficulties locating the chatbot within their OES (Online Education System) accounts. This issue prevents users from accessing the chatbot's features and assistance.
+
+Steps to Reproduce:
+
+Log in to the OES account using valid credentials.
+Navigate to various sections of the account interface where the chatbot is expected to be available.
+Look for any visible chatbot icon, button, or link.
+Expected Results:
+
+Users should be able to easily locate and access the chatbot within their OES accounts.
+The chatbot icon, button, or link should be prominently displayed for users to interact with.
+Actual Results:
+
+Despite searching within different sections of the account interface, users are unable to find any visible indication of the chatbot.
+The chatbot icon, button, or link is not present, and users cannot access its functionalities.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue of the missing chatbot in the OES account.
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+Test Scenario:28(Upcoming products)
+
+Bug Title: Upcoming Products Not Displayed in OES Dashboard
+
+Bug Description:
+Users are encountering an issue where upcoming products are not being displayed in the OES dashboard. This issue prevents users from being informed about and accessing information regarding upcoming courses, features, or offerings.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the section or area where upcoming products are typically showcased (e.g., "Upcoming," "Coming Soon," "Future Offerings").
+Check for the presence of information or links related to upcoming products.
+Expected Results:
+
+Users should be able to easily locate and access information about upcoming products within the dashboard.
+Upcoming products should be displayed prominently, allowing users to learn about and prepare for future offerings.
+Actual Results:
+
+After navigating to the relevant section, there is no information or links related to upcoming products.
+Users are unable to access details about upcoming courses, features, or offerings.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue of upcoming products not being displayed in the OES dashboard.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Test Scenario:29(My Users)
+
+Bug Title: Downlines Not Visible in User List After Registration
+
+Bug Description:
+Users are facing an issue where their downlines, individuals who have registered under their referral, are not appearing in the user list after the registration process. This issue prevents users from accurately tracking their referrals and downline members.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Access the user list or network section where downlines are expected to be displayed.
+Review the user list for the presence of downlines who have successfully registered under the user's referral link.
+Expected Results:
+
+Users should be able to easily access their user list and view downlines who have registered under their referral link.
+Downline members should be accurately listed and associated with the referring user's account.
+Actual Results:
+
+Upon accessing the user list or network section, downlines who have registered under the user's referral link are not visible.
+Users are unable to see their downline members in the user list.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+Test Scenario:30(My Affiliates)
+
+Bug Title: Founders Not Visible in Affiliate List After Registration
+
+Bug Description:
+Users are experiencing an issue where individuals who registered using their affiliate link as founders are not being displayed in the affiliate list within the OES dashboard. This issue prevents users from accurately tracking their affiliate referrals and founders.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the affiliate section or affiliate list where referral information is displayed.
+Check for the presence of individuals who registered using your affiliate link as founders.
+Expected Results:
+
+Users should be able to easily access their affiliate list and view individuals who registered as founders using their affiliate link.
+Founder members should be accurately listed and associated with the user's affiliate account.
+Actual Results:
+
+Upon accessing the affiliate list, individuals who registered as founders using the user's affiliate link are not visible.
+Users are unable to see their founder referrals in the affiliate list.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue of founders not being visible in the affiliate list after registration.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Test Scenario:31(Affiliate link)
+
+Bug Title: Unable to Copy Affiliate Link
+
+Bug Description:
+Users are encountering difficulties when attempting to copy their affiliate link within the OES (Online Education System) dashboard. This issue prevents users from effectively sharing their affiliate link with others.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard using valid credentials.
+Navigate to the section or area where the affiliate link is displayed (e.g., "Affiliate," "Referral Program").
+Locate the affiliate link and attempt to copy it using the provided copying mechanism (e.g., copy button, right-click copy).
+Expected Results:
+
+Users should be able to easily locate and copy their affiliate link using the provided copying mechanism.
+After attempting to copy the affiliate link, the link should be successfully copied to the user's clipboard.
+Actual Results:
+
+Despite attempting to use the copying mechanism, the affiliate link is not copied to the user's clipboard.
+Users are unable to proceed with copying their affiliate link for sharing.
+Attachments:
+
+Attach a screenshot or video demonstrating the issue when attempting to copy the affiliate link.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:32(Update pop up)
+
+Bug Title: No Update Pop-ups Displayed in OES Dashboard
+
+Bug Description:
+I am experiencing a problem where I'm not receiving any update pop-ups in the OES (Open Enterprise Server) dashboard. The expected behavior is to receive notifications when updates are available, but this feature seems to be malfunctioning.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the update section or wait for automatic update notifications.
+Observe that no pop-ups or notifications appear regarding available updates.
+
+Expected Results:
+When updates are available, a pop-up notification should be displayed in the OES dashboard, alerting the user about the updates.
+
+Actual Results:
+No pop-up notifications are displayed in the OES dashboard, even when updates are available.
+
+--------------------------------------------------------------------------------------------------
+
+Test Scenario:33(Marketplace option)
+
+Bug Title: Marketplace Section Not Functional When Clicked in OES Dashboard
+
+Bug Description:
+Upon clicking on the "Marketplace" section within the OES (Open Enterprise Server) dashboard, the expected behavior is to be directed to the Marketplace interface. However, the section does not appear to be functioning as intended, and I am unable to access the Marketplace.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Locate and click on the "Marketplace" section.
+Observe that the expected Marketplace interface does not load or is unresponsive.
+Expected Results:
+Clicking on the "Marketplace" section should navigate to the Marketplace interface, allowing the user to access and explore available marketplace offerings.
+
+Actual Results:
+Clicking on the "Marketplace" section does not lead to the Marketplace interface loading. There is no response or change in the dashboard's appearance.
+
+---------------------------------------------------------------------------------------------------------------
+Test Scenario:34(My Favorites)
+
+Bug Title: Product Not Visible in 'My Favorites' Section in OES Dashboard
+
+Bug Description:
+After adding a product to the "My Favorites" section within the OES (Open Enterprise Server) dashboard, the product is not visible or accessible in the designated section. The expected behavior is for the added product to be listed among the favorites.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the product you want to add to the favorites.
+Add the product to the "My Favorites" section.
+Go to the "My Favorites" section.
+Observe that the added product is not listed.
+Expected Behavior:
+After adding a product to the "My Favorites" section, the product should be visible and accessible in the favorites list.
+
+Actual Behavior:
+The product added to the "My Favorites" section is not visible or accessible. The list remains empty or does not show the expected product.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:35(My Subscription)
+
+Bug Title: "Subscribe to Product" Option Not Working in "My Subscriptions" Tab in OES Dashboard
+
+Bug Description:
+The "Subscribe to Product" option within the "My Subscriptions" tab of the OES (Open Enterprise Server) dashboard is not functioning as expected. Clicking on the option to subscribe to a product does not result in successful subscription, impeding the user's ability to manage their subscriptions.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Go to the "My Subscriptions" tab.
+Locate a product you want to subscribe to.
+Click on the "Subscribe to Product" option next to the product.
+Observe that the expected subscription confirmation or action does not take place.
+Expected Behavior:
+Clicking on the "Subscribe to Product" option should initiate the subscription process, leading to a confirmation and successful addition of the product to the user's subscriptions.
+
+Actual Behavior:
+After clicking on the "Subscribe to Product" option, there is no observable change or confirmation. The product is not added to the user's subscriptions.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:36(My Subscription)
+
+Bug Title: Subscription Date Not Displaying in "My Subscriptions" Tab of OES Dashboard
+
+Bug Description:
+In the "My Subscriptions" tab of the OES (Open Enterprise Server) dashboard, the subscription date for each product is not being displayed. The subscription date information is crucial for users to track their subscription durations.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the "My Subscriptions" tab.
+Observe that the subscription dates for the listed products are missing.
+Expected Behavior:
+In the "My Subscriptions" tab, each product should display its corresponding subscription date, allowing users to track the duration of their subscriptions.
+
+Actual Behavior:
+The subscription date information is not visible next to the listed products in the "My Subscriptions" tab. The column that should display subscription dates appears to be empty.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:37(My Invites)
+
+Bug Title: Missing Invitation Details in "My Invites" Section of OES Dashboard
+
+Bug Description:
+In the "My Invites" section of the OES (Open Enterprise Server) dashboard, the invitation details are not being displayed. The expected behavior is for users to see comprehensive details regarding sent invitations.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the "My Invites" section.
+Observe that the invitation details, such as recipient information and invitation status, are missing.
+Expected Behavior:
+In the "My Invites" section, each sent invitation should display relevant details, including recipient information, invitation status, and any additional information related to the invitation.
+
+Actual Behavior:
+The invitation details are not visible next to the sent invitations in the "My Invites" section. The section that should display these details appears to be empty or incomplete.
+
+------------------------------------------------------------------------------------------------------------
+
+Test Scenario:38(My Users)
+
+Bug Title: User Count Displayed as Zero in "My Users" Section of OES Dashboard
+
+Bug Description:
+In the "My Users" section of the OES (Open Enterprise Server) dashboard, the user count is incorrectly displayed as zero. This is inaccurate as there are active users associated with the account.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the "My Users" section.
+Observe that the user count is displayed as zero, even though there are active users associated with the account.
+Expected Behavior:
+In the "My Users" section, the user count should accurately reflect the number of active users associated with the account.
+
+Actual Behavior:
+The user count is incorrectly displayed as zero, despite the presence of active users. The section that should display the user count appears to be displaying inaccurate information.
+
+----------------------------------------------------------------------------------------------------------------------
+Test Scenario:39(Ticket Status)
+
+Bug Title: Ticket Status Not Displaying Properly in OES Dashboard
+
+When reporting the bug, provide comprehensive details to help developers understand and reproduce the issue. Here's a template you can use to report the bug effectively:
+
+Bug Title: Ticket Status Not Displaying Properly in OES Dashboard
+
+Bug Description:
+In the OES (Open Enterprise Server) dashboard, the ticket status is not being displayed as expected. Users are unable to view accurate information about their ticket statuses.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the section or tab where ticket statuses are expected to be displayed.
+Observe that the ticket status information is missing, incomplete, or displaying incorrectly.
+Expected Behavior:
+In the relevant section of the OES dashboard, ticket statuses should be displayed accurately, providing users with up-to-date information about their tickets.
+
+Actual Behavior:
+The ticket status information is not displayed properly or is missing entirely. Users are unable to determine the current status of their tickets.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:40(O-Founder Logo)
+
+Bug Title: O-Founder Logo Missing in OES Dashboard
+
+Bug Description:
+The O-Founder logo is not being displayed in the OES (Open Enterprise Server) dashboard. The expected behavior is to see the O-Founder logo, but it is currently missing.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Observe the header area or designated location where the O-Founder logo is expected to be displayed.
+Note that the O-Founder logo is not present.
+Expected Behavior:
+The O-Founder logo should be displayed in the OES dashboard's header or designated location, representing the platform's branding.
+
+Actual Behavior:
+The O-Founder logo is missing from the OES dashboard, and no branding element is visible in its place.
+
+-----------------------------------------------------------------------------------------------------
+
+Test Scenario:41(O-Mail)
+
+Bug Title: Unable to Create O-Mail Account in OES Dashboard
+
+Bug Description:
+Users are unable to create an O-Mail account using the OES (Open Enterprise Server) dashboard. When attempting to set up an O-Mail account, the process does not complete successfully.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the section or tab for creating O-Mail accounts.
+Enter the required information for the account creation.
+Attempt to create the O-Mail account.
+Observe that the account creation process fails to complete, and the account is not created.
+Expected Behavior:
+Users should be able to successfully create an O-Mail account by providing the required information in the designated section of the OES dashboard.
+
+Actual Behavior:
+Despite providing the necessary information, the account creation process does not complete, and the O-Mail account is not successfully created.
+
+----------------------------------------------------------------------------------------------------------------------------
+Test Scenario:42(O-Mail)
+
+Bug Title: Unable to Send Email in O-Mail in OES Dashboard
+
+Bug Description:
+Users are encountering difficulties when attempting to send emails using O-Mail within the OES (Open Enterprise Server) dashboard. Emails are not being successfully sent, even after following the standard email composition and sending process.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Mail section or tab.
+Compose a new email, filling in the necessary recipient, subject, and content details.
+Attempt to send the email.
+Observe that the email sending process fails to complete, and the email is not sent.
+Expected Behavior:
+Users should be able to compose and send emails using O-Mail within the OES dashboard without encountering any issues.
+
+Actual Behavior:
+Despite correctly composing emails and initiating the sending process, emails are not being successfully sent using O-Mail in the OES dashboard.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:43(O-Mail)
+
+Bug Title: O-mail Not Working - "Please Wait" Error
+
+Bug Description:
+Users are encountering a critical issue with O-Email in the OES (Open Enterprise Server) dashboard. When attempting to access or use O-Email, the dashboard displays an error message saying "Please wait," and the email functionality is not working as expected.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-mail section or tab.
+Attempt to open the O-Email interface or perform email-related actions.
+Observe that the dashboard displays an error message with the text "Please wait," and the email functionality is unresponsive.
+Expected Behavior:
+Users should be able to access O-Email and use its features without encountering the "Please wait" error message or any unresponsiveness.
+
+Actual Behavior:
+Upon attempting to use O-Email, the dashboard displays the "Please wait" error message, and the email functionality remains unresponsive or non-functional.
+
+------------------------------------------------------------------------------------------------------------------------
+Test Scenario:44(O-Mail)
+
+Bug Title: Unable to Record and Attach Video in O-Email in OES Dashboard
+
+Bug Description:
+Users are encountering difficulties when attempting to record a video and attach it to an email using O-Email within the OES (Open Enterprise Server) dashboard. The recording process fails or the attached video does not function as expected.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Email section or tab.
+Compose a new email, filling in the necessary recipient, subject, and content details.
+Attempt to record a video by following the provided recording feature.
+Attach the recorded video to the email.
+Observe that either the recording process fails or the attached video does not function as expected when played within the email.
+Expected Behavior:
+Users should be able to successfully record a video and attach it to an email within the OES dashboard. The attached video should play as intended when opened within the email.
+
+Actual Behavior:
+Either the recording process fails to complete or the attached video does not play as expected when opened within the email.
+
+
+-------------------------------------------------------------------------------------------------------------------
+Test Scenario:45(O-Mail)
+
+Bug Title: Unable to Create Folders in O-Email in OES Dashboard
+
+Bug Description:
+Users are facing difficulties when trying to create new folders within O-Email in the OES (Open Enterprise Server) dashboard. The process of creating folders fails to complete successfully.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Email section or tab.
+Access the folder management options.
+Attempt to create a new folder by providing a name and selecting a location.
+Observe that the process of creating the new folder fails, and the folder is not successfully created.
+Expected Behavior:
+Users should be able to create new folders within O-Email by providing a name and selecting a location. The new folder should be successfully created and accessible.
+
+Actual Behavior:
+Despite providing the required information, the process of creating a new folder in O-Email fails to complete, and the folder is not created.
+
+--------------------------------------------------------------------------------------------------------------------------
+Test Scenario:46(O-Mail)
+
+Bug Title: Unable to Create Contacts in O-Mail in OES Dashboard
+
+When reporting the bug, provide detailed information to help developers understand and reproduce the issue. Here's a template you can use to report the bug effectively:
+
+Bug Title: Unable to Create Contacts in O-Mail in OES Dashboard
+
+Bug Description:
+Users are encountering issues when attempting to create new contacts within O-Mail in the OES (Open Enterprise Server) dashboard. The process of creating contacts fails to complete successfully.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Mail section or tab.
+Access the contact management options.
+Attempt to create a new contact by providing the required details (e.g., name, email address, phone number).
+Observe that the process of creating the new contact fails, and the contact is not successfully created.
+Expected Behavior:
+Users should be able to create new contacts within O-Mail by providing the required details. The new contact should be successfully created and accessible.
+
+Actual Behavior:
+Despite providing the necessary contact information, the process of creating a new contact in O-Mail fails to complete, and the contact is not created.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenario:47(O-Net)
+
+Bug Title: Unable to Post on O-Net in OES Dashboard
+
+Bug Description:
+Users are experiencing difficulties when attempting to post content on O-Net within the OES (Open Enterprise Server) dashboard. The process of posting content fails to complete successfully.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Net section or tab.
+Access the post creation interface or option.
+Attempt to create and submit a new post by providing the necessary content (e.g., text, images, links).
+Observe that the process of posting content fails, and the post is not successfully created or displayed.
+Expected Behavior:
+Users should be able to create and post content on O-Net within the OES dashboard by providing the necessary information. The new post should be successfully created and displayed.
+
+Actual Behavior:
+Despite providing the required content, the process of posting content on O-Net fails to complete, and the content is not displayed or visible to other users.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Test Scenario:48(O-Net)
+
+Bug Title: Unable to Add Friends on O-Net in OES Dashboard
+
+Bug Description:
+Users are experiencing issues when trying to add friends on O-Net within the OES (Open Enterprise Server) dashboard. The process of adding friends fails to complete successfully.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Net section or tab.
+Access the friend management options or interface.
+Attempt to add a new friend by providing the necessary information (e.g., username, email address).
+Observe that the process of adding the friend fails, and the friend is not successfully added to the user's friend list.
+Expected Behavior:
+Users should be able to add friends on O-Net within the OES dashboard by providing the required information. The new friend should be successfully added to the user's friend list.
+
+Actual Behavior:
+Despite providing the necessary information, the process of adding a friend on O-Net fails to complete, and the friend is not added to the user's friend list.
+
+------------------------------------------------------------------------------------------------------------------------------------
+Test Scenario:49(O-Net)
+
+Bug Title: Unable to Create Club on O-Net in OES Dashboard
+
+Bug Description:
+Users are encountering issues when trying to create a club on O-Net within the OES (Open Enterprise Server) dashboard. The process of creating a club fails to complete successfully.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Net section or tab.
+Access the club creation options or interface.
+Attempt to create a new club by providing the necessary information (e.g., club name, description, members).
+Observe that the process of creating the club fails, and the club is not successfully created.
+Expected Behavior:
+Users should be able to create clubs on O-Net within the OES dashboard by providing the required information. The new club should be successfully created and accessible.
+
+Actual Behavior:
+Despite providing the necessary information, the process of creating a club on O-Net fails to complete, and the club is not created.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Test Scenario:50(O-Net)
+
+Bug Title: Unable to Like Blog Posts on O-Net in OES Dashboard
+
+When reporting the bug, provide detailed information to help developers understand and reproduce the issue. Here's a template you can use to report the bug effectively:
+
+Bug Title: Unable to Like Blog Posts on O-Net in OES Dashboard
+
+Bug Description:
+Users are encountering issues when trying to like blog posts on O-Net within the OES (Open Enterprise Server) dashboard. The process of liking blog posts fails to complete successfully.
+
+Steps to Reproduce:
+
+Log in to the OES dashboard.
+Navigate to the O-Net section or tab where blog posts are displayed.
+Access a specific blog post that you want to like.
+Attempt to like the blog post using the provided "Like" or similar functionality.
+Observe that the process of liking the blog post fails, and the like is not successfully registered.
+Expected Behavior:
+Users should be able to like blog posts on O-Net within the OES dashboard using the provided functionality. The like should be successfully registered and visible on the blog post.
+
+Actual Behavior:
+Despite attempting to like a blog post, the process fails to complete, and the like is not registered or displayed on the blog post.
+
+...................................................................................
+Test Scenario:51
+
+Test Case Title: Unable to Paste URL while Trimming
+
+Test Case ID: OT-001
+
+Priority: High
+
+Preconditions:
+
+O-Trim is installed and running on the test machine.
+The user is logged into their O-Trim account.
+The user has copied a URL to the clipboard.
+Steps to Reproduce:
+
+Open O-Trim.
+
+Go to the "Trim" functionality within O-Trim.
+
+Expected Result: The "Trim" functionality should be accessible without any errors.
+
+Attempt to paste a URL from the clipboard into the text field for trimming.
+
+Expected Result: The URL from the clipboard should be pasted into the text field successfully.
+
+Click the "Trim" button to execute the trimming operation.
+
+Expected Result: The URL should be trimmed as per the user's request without any issues.
+
+Actual Result: Describe the observed behavior or issue.
+
+The URL cannot be pasted into the text field for trimming. The paste operation fails, and the text field remains empty.
+Notes:
+
+This issue was encountered on [mention the specific version and build of O-Trim you are using].
+The issue occurs consistently and is blocking the user from performing the desired action.
+The copy and paste functionality is tested and working correctly in other applications on the same computer.
+This issue has been reproduced on multiple machines running different operating systems.
+Attachments:
+
+Screenshots or screen recordings demonstrating the issue, if available.
+Severity: Critical
+
+
+.......................................................................
+Test Scenario:52
+
+
+Bug Report Title: "Trim URL" Button Not Working
+
+Bug Report ID: OT-002
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Navigate to the URL trimming feature.
+
+Expected Result: The URL trimming feature should be accessible without errors.
+
+Copy a URL to the clipboard.
+
+Expected Result: The URL should be successfully copied to the clipboard.
+
+Attempt to paste the copied URL into the designated input field for trimming.
+
+Expected Result: The URL should paste into the input field as expected.
+
+Click the "Trim URL" button to execute the trimming operation.
+
+Expected Result: The URL should be trimmed according to the specified settings or options.
+
+Actual Result: Describe the observed behavior or issue.
+
+Upon clicking the "Trim URL" button, nothing happens. The trimming operation does not occur, and the URL remains unchanged.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the "Trim URL" button is clicked.
+Copy and paste operations within O-Trim are functioning correctly for other tasks.
+This issue has been tested on multiple devices and browsers with the same result.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...............................................................................................................................
+Test Scenario:53
+
+
+Bug Report Title: Unable to Add Alias Name while Trimming
+
+Bug Report ID: OT-003
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the URL trimming feature.
+
+Expected Result: The URL trimming feature should be accessible without errors.
+
+Copy a URL to the clipboard.
+
+Expected Result: The URL should be successfully copied to the clipboard.
+
+Attempt to paste the copied URL into the designated input field for trimming.
+
+Expected Result: The URL should paste into the input field as expected.
+
+Look for an option or input field to add an alias name for the trimmed URL.
+
+Expected Result: An option or input field for adding an alias name should be available to the user.
+
+Try to add an alias name for the trimmed URL in the designated field.
+
+Expected Result: The alias name should be added without issues.
+
+Actual Result: Describe the observed behavior or issue.
+
+There is no option or input field available for adding an alias name for the trimmed URL. Therefore, it is impossible to add an alias name while trimming.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the URL trimming feature is used.
+Copy and paste operations within O-Trim are functioning correctly for other tasks.
+This issue has been tested on multiple devices and browsers with the same result.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+........................................................................................
+
+Test Scenario:54
+
+
+Bug Report Title: "User Guide" Option Not Working
+
+Bug Report ID: OT-004
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Locate and click on the "User Guide" option or button within the application.
+
+Expected Result: Clicking on the "User Guide" option should open the user guide in a new window or tab.
+
+Actual Result: Describe the observed behavior or issue.
+
+Upon clicking the "User Guide" option, nothing happens. The user guide does not open, and there is no response from the application.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the "User Guide" option is clicked.
+Other options and features within O-Trim appear to be functioning correctly.
+The "User Guide" option was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.....................................................................................................
+
+Test Scenario:55
+
+
+Bug Report Title: Unable to Switch to Dark Mode
+
+Bug Report ID: OT-005
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Locate and click on the option or button to switch to dark mode within the application.
+
+Expected Result: Clicking on the dark mode switch should change the application's theme to dark mode.
+
+Actual Result: Describe the observed behavior or issue.
+
+Upon clicking the dark mode switch, the application's theme does not change to dark mode. There is no visual change, and the application remains in its default light mode.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the dark mode switch is clicked.
+Other options and features within O-Trim appear to be functioning correctly.
+The dark mode feature was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+...............................................................................................
+Test Scenario:56
+
+
+Bug Report Title: Search Option Not Working
+
+Bug Report ID: OT-006
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Locate and access the search feature within the application.
+
+Expected Result: Clicking on the search option should open a search bar or dialog where you can search for specific content.
+
+Enter a search query (e.g., a keyword) into the search bar.
+
+Expected Result: You should be able to enter a search query without issues.
+
+Press the "Enter" key or click the "Search" button to initiate the search.
+
+Expected Result: The search should be executed, and relevant results should be displayed.
+
+Actual Result: Describe the observed behavior or issue.
+
+After entering a search query and pressing "Enter" or clicking the "Search" button, nothing happens. The search does not execute, and there are no search results displayed.
+
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the search option is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The search feature was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+.......................................................................................................
+
+Test Scenario:57
+
+Bug Report Title: "Choose Date Filter" Not Working
+
+Bug Report ID: OT-007
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you can choose a date filter within the application.
+
+Expected Result: Clicking on the "Choose Date Filter" option should open a date selection dialog or menu.
+
+Attempt to select a date range or filter by specifying a start date and end date.
+
+Expected Result: You should be able to choose a date range without issues.
+
+Apply the selected date filter.
+
+Expected Result: The selected date filter should be applied, and relevant data or content should be displayed accordingly.
+
+Actual Result: Describe the observed behavior or issue.
+
+After attempting to select a date filter and applying it, the date filter does not appear to be applied. The displayed data or content remains unchanged.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the "Choose Date Filter" functionality is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The "Choose Date Filter" feature was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.............................................................................................
+Test Scenario:58
+
+Bug Report Title: Unable to Export Data to CSV
+
+Bug Report ID: OT-008
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you can export data to CSV within the application.
+
+Expected Result: Clicking on the "Export to CSV" option should initiate the export process and generate a CSV file.
+
+Choose the specific data or content you want to export, if applicable.
+
+Expected Result: You should be able to select the data to be exported.
+
+Click the "Export" button to start the export process.
+
+Expected Result: The selected data should be exported to a CSV file, and a download prompt or link should appear.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the "Export" button, nothing happens. The export process does not initiate, and there is no download prompt or link.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the "Export to CSV" functionality is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The "Export to CSV" feature was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+..............................................................................................
+
+Test Scenario:59
+
+Bug Report Title: Unable to View Target URL
+
+Bug Report ID: OT-009
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you should be able to view the target URL within the application.
+
+Expected Result: Clicking on an item or link should display the target URL in a new window or dialog.
+
+Select or click on a specific item or link for which you expect to see the target URL.
+
+Expected Result: The target URL should be displayed for the selected item or link.
+
+Actual Result: Describe the observed behavior or issue.
+
+After selecting or clicking on an item or link, the target URL does not appear. There is no display of the target URL, and it remains hidden.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the functionality to view the target URL is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to view the target URL was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.................................................................................
+
+Test Scenario:60
+
+Bug Report Title: Trimmed URL Not Working
+
+Bug Report ID: OT-010
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you can trim a URL within the application.
+
+Expected Result: After trimming a URL, the resulting trimmed URL should be functional and redirect to the original destination.
+
+Enter a URL into the input field for trimming.
+
+Expected Result: You should be able to enter a URL without issues.
+
+Click the "Trim" button to execute the trimming process.
+
+Expected Result: The URL should be trimmed, and a shortened URL should be generated.
+
+Click on the shortened or trimmed URL to access the original destination.
+
+Expected Result: Clicking on the trimmed URL should successfully redirect you to the original destination website.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking on the trimmed URL, it does not redirect to the original destination. Instead, there is an error or the trimmed URL does not function as expected.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time a trimmed URL is created and clicked.
+Other options and features within O-Trim appear to be functioning correctly.
+The functionality for creating and using trimmed URLs was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+........................................................................................
+
+Test Scenario:61
+
+Bug Report Title: Unable to Copy URL
+
+Bug Report ID: OT-011
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you should be able to copy a URL within the application.
+
+Expected Result: Clicking on the option to copy a URL should copy the URL to the clipboard.
+
+Locate and select a URL within the application.
+
+Expected Result: You should be able to select a URL within the application without issues.
+
+Click the option to copy the selected URL.
+
+Expected Result: The selected URL should be copied to the clipboard and be available for pasting.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to copy a URL, the URL is not copied to the clipboard. There is no indication of a successful copy operation.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the copy URL functionality is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to copy URLs was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+...........................................................................................
+
+Test Scenario:62
+
+
+Bug Report Title: Unable to Edit Trimmed URL
+
+Bug Report ID: OT-012
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you should be able to edit a trimmed URL within the application.
+
+Expected Result: Clicking on the option to edit a trimmed URL should open a dialog or interface where you can make changes to the URL.
+
+Locate the trimmed URL you want to edit within the application.
+
+Expected Result: You should be able to select the trimmed URL within the application without issues.
+
+Click the option to edit the selected trimmed URL.
+
+Expected Result: The selected trimmed URL should open for editing, allowing you to make changes.
+
+Make the necessary edits to the trimmed URL.
+
+Expected Result: You should be able to edit the trimmed URL without issues.
+
+Save the edited trimmed URL.
+
+Expected Result: The edited trimmed URL should be saved, and the changes should be applied.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to edit the trimmed URL, it does not open for editing. There is no interface or dialog provided for making changes to the trimmed URL.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the edit trimmed URL functionality is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to edit trimmed URLs was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...................................................................................................
+
+Test Scenario:63
+
+Bug Report Title: Unable to Share Trimmed URL
+
+Bug Report ID: OT-013
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you should be able to share a trimmed URL within the application.
+
+Expected Result: Clicking on the option to share a trimmed URL should provide sharing options or generate a shareable link.
+
+Locate the trimmed URL you want to share within the application.
+
+Expected Result: You should be able to select the trimmed URL within the application without issues.
+
+Click the option to share the selected trimmed URL.
+
+Expected Result: The selected trimmed URL should provide sharing options or generate a shareable link.
+
+Choose the method of sharing (e.g., copy link, share on social media, send via email).
+
+Expected Result: You should be able to select a sharing method without issues.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to share the trimmed URL, it does not provide sharing options, and no shareable link is generated. There is no indication of a successful share operation.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the share trimmed URL functionality is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to share trimmed URLs was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+....................................................................................................
+
+Test Scenario:64
+
+Bug Report Title: Unable to Share Trimmed URL
+
+Bug Report ID: OT-013
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you should be able to share a trimmed URL within the application.
+
+Expected Result: Clicking on the option to share a trimmed URL should provide sharing options or generate a shareable link.
+
+Locate the trimmed URL you want to share within the application.
+
+Expected Result: You should be able to select the trimmed URL within the application without issues.
+
+Click the option to share the selected trimmed URL.
+
+Expected Result: The selected trimmed URL should provide sharing options or generate a shareable link.
+
+Choose the method of sharing (e.g., copy link, share on social media, send via email).
+
+Expected Result: You should be able to select a sharing method without issues.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to share the trimmed URL, it does not provide sharing options, and no shareable link is generated. There is no indication of a successful share operation.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the share trimmed URL functionality is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to share trimmed URLs was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+....................................................................................................
+
+Test Scenario:65
+
+Bug Report Title: Unable to Generate QR Code for Trimmed URL
+
+Bug Report ID: OT-014
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality where you should be able to generate a QR code for a trimmed URL within the application.
+
+Expected Result: Clicking on the option to generate a QR code should provide a QR code image for the trimmed URL.
+
+Locate the trimmed URL for which you want to generate a QR code within the application.
+
+Expected Result: You should be able to select the trimmed URL within the application without issues.
+
+Click the option to generate a QR code for the selected trimmed URL.
+
+Expected Result: A QR code image representing the trimmed URL should be generated and displayed.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to generate a QR code, no QR code image is generated or displayed. There is no indication of a successful QR code generation.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the generate QR code functionality is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to generate QR codes for trimmed URLs was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+....................................................................................................
+
+Test Scenario:66
+
+Bug Report Title: "Dashboard" Option Not Working
+
+Bug Report ID: OT-015
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Locate and click on the "Dashboard" option within the application.
+
+Expected Result: Clicking on the "Dashboard" option should open the dashboard interface where you can view relevant information and statistics.
+
+After opening the dashboard, try to interact with or view various elements and data on the dashboard.
+
+Expected Result: You should be able to interact with and view the dashboard elements, such as charts, graphs, and statistics.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the "Dashboard" option, nothing happens. The dashboard does not open, and there is no response from the application.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the "Dashboard" option is clicked.
+Other options and features within O-Trim appear to be functioning correctly.
+The "Dashboard" option was previously working in earlier versions of O-Trim.
+
+
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+.................................................................................
+
+Test Scenario:67
+
+Bug Report Title: Unable to View Total Clicks and Unique Clicks Details
+
+Bug Report ID: OT-016
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality or section where you should be able to view the Total Clicks and Unique Clicks details.
+
+Expected Result: Clicking on the option to view Total Clicks and Unique Clicks should display the relevant statistics and details.
+
+Look for the Total Clicks and Unique Clicks data.
+
+Expected Result: You should be able to see the Total Clicks and Unique Clicks data.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view Total Clicks and Unique Clicks details, the data is not displayed. There is no indication of Total Clicks and Unique Clicks statistics.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the Total Clicks and Unique Clicks details are accessed.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to view Total Clicks and Unique Clicks details was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...................................................................................
+Test Scenario:68
+
+Bug Report Title: Country-Wise Clicks Not Reflecting Correctly
+
+Bug Report ID: OT-017
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality or section where you should be able to view country-wise clicks data.
+
+Expected Result: Clicking on the option to view country-wise clicks should display the relevant statistics and details, showing clicks from different countries.
+
+Look for the country-wise clicks data.
+
+Expected Result: You should be able to see country-wise clicks data, with statistics indicating the number of clicks from different countries.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view country-wise clicks, the data is not reflecting correctly. The displayed data does not match the actual number of clicks from different countries.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time country-wise clicks data is accessed.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to view accurate country-wise clicks data was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+..................................................................................
+
+Test Scenario:69
+
+Bug Report Title: Unable to View Device Type and Browser Type
+
+Bug Report ID: OT-018
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality or section where you should be able to view device type and browser type information.
+
+Expected Result: Clicking on the option to view device type and browser type should display the relevant statistics and details, showing the types of devices and browsers used.
+
+Look for the device type and browser type data.
+
+Expected Result: You should be able to see device type and browser type data, with statistics indicating the types of devices and browsers used.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view device type and browser type information, the data is not reflecting correctly. The displayed data does not match the actual device types and browser types used.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time device type and browser type data are accessed.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to view accurate device type and browser type data was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+............................................................................................................
+
+Test Scenario:70
+
+Bug Report Title: Social Media Clicks Not Reflecting Correctly
+
+Bug Report ID: OT-019
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality or section where you should be able to view social media clicks data.
+
+Expected Result: Clicking on the option to view social media clicks should display the relevant statistics and details, showing the number of clicks from various social media platforms.
+
+Look for the social media clicks data.
+
+Expected Result: You should be able to see social media clicks data, with statistics indicating the number of clicks from different social media platforms.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view social media clicks data, the data is not reflecting correctly. The displayed data does not match the actual number of clicks from social media platforms.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time social media clicks data is accessed.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to view accurate social media clicks data was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+............................................................................................................
+
+Test Scenario:71
+
+Bug Report Title: Unable to Upload Files in Bulk Trim
+
+Bug Report ID: OT-020
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality or section where you should be able to upload files in bulk for trimming.
+
+Expected Result: Clicking on the option to upload files in bulk should open a file selection dialog or interface.
+
+Attempt to upload one or more files using the bulk upload feature.
+
+Expected Result: You should be able to select and upload files without issues.
+
+After selecting files, initiate the bulk upload process.
+
+Expected Result: The selected files should be uploaded successfully for trimming.
+
+Actual Result: Describe the observed behavior or issue.
+
+After attempting to upload files in bulk, the upload process does not work. There is no response from the application, and the files are not uploaded for trimming.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the bulk file upload feature is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to upload files in bulk for trimming was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...................................................................................................
+
+Test Scenario:72
+
+Bug Report Title: Unable to Download Bulk Trim File
+
+Bug Report ID: OT-021
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Trim.
+
+Ensure you are logged into your O-Trim account.
+
+Access the functionality or section where you should be able to download a bulk trim file.
+
+Expected Result: Clicking on the option to download a bulk trim file should initiate the download process and provide the file for saving.
+
+Locate the bulk trim file you want to download within the application.
+
+Expected Result: You should be able to identify and select the bulk trim file without issues.
+
+Click the option to download the selected bulk trim file.
+
+Expected Result: The selected bulk trim file should be downloaded and made available for saving.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to download the bulk trim file, the download process does not work. There is no initiation of the download, and the file is not provided for saving.
+Notes:
+
+This issue was encountered on O-Trim version [specify the version and build].
+The issue is consistent and occurs every time the bulk trim file download feature is used.
+Other options and features within O-Trim appear to be functioning correctly.
+The ability to download bulk trim files was previously working in earlier versions of O-Trim.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+................................................................................................................
+
+Test Scenario:73
+
+
+Bug Report Title: Unable to Create Project in O-Tracker
+
+Bug Report ID: OTK-001
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the functionality or section where you should be able to create a new project within the application.
+
+Expected Result: Clicking on the option to create a project should open a form or interface for creating a new project.
+
+Fill out the required project details, such as project name, description, and other relevant information.
+
+Expected Result: You should be able to enter project details without issues.
+
+Click the option to create the new project.
+
+Expected Result: The new project should be created and added to your project list.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to create a project, the creation process does not work. The project is not created, and there is no indication of a successful creation.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the project creation feature is used.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to create projects was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...................................................................................................................................
+
+Test Scenario:74
+
+Bug Report Title: Unable to View User Details in User Behavior Section
+
+Bug Report ID: OTK-002
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the user behavior section or functionality where you should be able to view user details.
+
+Expected Result: Clicking on the option to view user details should display relevant user behavior information, including details about the user's actions.
+
+Select a user for whom you want to view behavior details.
+
+Expected Result: You should be able to select a user from the list without issues.
+
+Click the option to view the user's behavior details.
+
+Expected Result: The user's behavior details should be displayed, including actions taken and other relevant information.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to view user behavior details, the details are not displayed. There is no response from the application, and the user's behavior details are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the user behavior details are accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view user behavior details was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+............................................................................................................................
+Test Scenario:75
+
+Bug Report Title: "New Visitor" and "Returned Visitor" Details Not Reflecting Correctly
+
+Bug Report ID: OTK-003
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the functionality or section where you should be able to view "New Visitor" and "Returned Visitor" details.
+
+Expected Result: Clicking on the option to view these details should display the relevant statistics and information, distinguishing between new and returning visitors.
+
+Look for the "New Visitor" and "Returned Visitor" data.
+
+Expected Result: You should be able to see accurate "New Visitor" and "Returned Visitor" data, with clear distinctions between the two.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view "New Visitor" and "Returned Visitor" details, the data is not reflecting correctly. The displayed data does not accurately distinguish between new and returning visitors.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time "New Visitor" and "Returned Visitor" details are accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view accurate "New Visitor" and "Returned Visitor" details was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...................................................................................
+Test Scenario:76
+
+Bug Report Title: User Path Not Reflecting Correctly
+
+Bug Report ID: OTK-004
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the functionality or section where you should be able to view the user path.
+
+Expected Result: Clicking on the option to view the user path should display the path that a user has taken within the application, including the actions and pages visited.
+
+Look for the user path data.
+
+Expected Result: You should be able to see an accurate representation of the user path, showing the actions and pages visited by the user.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view the user path, the data is not reflecting correctly. The displayed user path does not accurately represent the actions and pages visited by the user.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the user path is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view an accurate user path was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.............................................................................................
+
+Test Scenario:77
+
+
+Bug Report Title: Unable to Track Geo-Location in O-Tracker
+
+Bug Report ID: OTK-005
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the functionality or section where you should be able to track the geo-location of users.
+
+Expected Result: Clicking on the option to track geo-location should display the current location or history of user locations on a map or in a list.
+
+Look for the geo-location data.
+
+Expected Result: You should be able to see accurate geo-location data, including the location history of users.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to track geo-location, the data is not tracking correctly. The displayed geo-location data does not accurately represent the current location or history of user locations.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time geo-location tracking is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to track geo-location was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+......................................................................................
+
+Test Scenario:78
+
+Bug Report Title: "Acquisition" Button Not Working
+
+Bug Report ID: OTK-006
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Locate and click on the "Acquisition" button within the application.
+
+Expected Result: Clicking on the "Acquisition" button should open the acquisition interface or section, allowing you to view and analyze acquisition data.
+
+After opening the acquisition section, try to interact with or view various elements and data related to acquisition.
+
+Expected Result: You should be able to interact with and view the acquisition elements, such as acquisition channels, sources, and campaign data.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the "Acquisition" button, nothing happens. The acquisition section does not open, and there is no response from the application.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the "Acquisition" button is clicked.
+Other options and features within O-Tracker appear to be functioning correctly.
+The "Acquisition" button was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+..............................................................................................................................................
+
+Test Scenario:79
+
+Bug Report Title: Unable to Use Heatmap Functionality
+
+Bug Report ID: OTK-007
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the functionality or section where you should be able to use the heatmap feature.
+
+Expected Result: Clicking on the option to use the heatmap should open the heatmap interface or section, allowing you to view and analyze user interaction data.
+
+After opening the heatmap section, try to interact with or view the heatmap data.
+
+Expected Result: You should be able to interact with and view the heatmap elements, such as hotspots and user interaction patterns.
+
+Actual Result: Describe the observed behavior or issue.
+
+After attempting to use the heatmap functionality, the heatmap section does not open, and the heatmap data is not displayed. There is no response from the application.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the heatmap functionality is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to use the heatmap was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+..............................................................................................................................
+
+Test Scenario:80
+
+Bug Report Title: Unable to Block IP Address by Country
+
+Bug Report ID: OTK-008
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the functionality or section where you should be able to block an IP address by country.
+
+Expected Result: Clicking on the option to block an IP address by country should open the IP blocking interface, allowing you to specify the country and IP address range to block.
+
+After opening the IP blocking section, attempt to specify the country and IP address range for blocking.
+
+Expected Result: You should be able to specify the country and IP address range without issues.
+
+Save the blocking configuration.
+
+Expected Result: The specified IP address range for the selected country should be successfully blocked.
+
+Actual Result: Describe the observed behavior or issue.
+
+After attempting to block an IP address by country, the blocking configuration is not saved, and the IP address range is not effectively blocked.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the IP blocking by country feature is used.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to block IP addresses by country was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+........................................................................................................
+Test Scenario:81
+
+Bug Report Title: Unable to Reset Password
+
+Bug Report ID: OTK-009
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the functionality or section where you should be able to reset your password.
+
+Expected Result: Clicking on the option to reset the password should open the password reset interface, allowing you to enter a new password.
+
+After opening the password reset section, enter your current password and the new password you want to use.
+
+Expected Result: You should be able to enter the passwords without issues.
+
+Confirm the password reset.
+
+Expected Result: The password should be successfully reset, and you should be able to log in with the new password.
+
+Actual Result: Describe the observed behavior or issue.
+
+After attempting to reset the password, the password reset process does not work. The password is not reset, and you are unable to log in with the new password.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the password reset feature is used.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to reset the password was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+..............................................................................................
+Test Scenario:82
+
+Bug Report Title: Not Receiving OTP in Registered Email Address
+
+Bug Report ID: OTK-010
+
+Priority: High
+
+Severity: Critical
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Attempt to log in to your O-Tracker account.
+
+When prompted for an OTP, click on the option to receive the OTP via email.
+
+Expected Result: You should receive an OTP in your registered email address within a reasonable timeframe.
+
+Check your registered email address for the OTP.
+
+Expected Result: You should receive an email containing the OTP for logging in.
+
+Enter the OTP from the email into the O-Tracker login page.
+
+Expected Result: The OTP should be successfully entered, allowing you to log in to your account.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to receive the OTP via email, no email containing the OTP is received in the registered email address. As a result, you are unable to log in with the OTP.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the OTP is requested via email.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to receive OTPs via email was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+......................................................................................
+
+Test Scenario:83
+
+
+Bug Report Title: Video Pop-up Not Appearing in User Guide
+
+Bug Report ID: OTK-011
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open the User Guide section of O-Tracker.
+
+Navigate to the section or topic where a video pop-up is expected to appear.
+
+Expected Result: When accessing the User Guide, you should encounter topics or sections where video pop-ups are intended to provide instructional content.
+
+Click on a topic or section where the video pop-up is expected.
+
+Expected Result: Clicking on a topic or section should trigger the appearance of a video pop-up containing relevant instructional content.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking on a topic or section where the video pop-up is expected, the video pop-up does not appear. There is no response from the application, and instructional content is not displayed.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time a topic or section with a video pop-up is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The video pop-up functionality in the User Guide was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+....................................................................................................
+
+Test Scenario:84
+
+Bug Report Title: Unable to Share URL Through Social Media
+
+Bug Report ID: OTK-012
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Navigate to the section or functionality where you should be able to share a URL through social media.
+
+Expected Result: Clicking on the option to share a URL through social media should open a sharing dialog or interface.
+
+Enter the URL you want to share, along with any additional content or message.
+
+Expected Result: You should be able to enter the URL and content without issues.
+
+Click the option to share the URL through social media.
+
+Expected Result: The sharing dialog or interface should open, allowing you to select the social media platform and post the URL.
+
+Actual Result: Describe the observed behavior or issue.
+
+After clicking the option to share the URL through social media, the sharing dialog or interface does not open. There is no response from the application, and the URL cannot be shared through social media.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the URL sharing through social media feature is used.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to share URLs through social media was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+..................................................................................................
+
+Test Scenario:85
+
+Bug Report Title: Unable to View Bounce Rate
+
+Bug Report ID: OTK-013
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to view the bounce rate.
+
+Expected Result: Clicking on the option to view the bounce rate should display the bounce rate statistics for your website or application.
+
+Look for the bounce rate data.
+
+Expected Result: You should be able to see accurate bounce rate data, including the percentage of visitors who navigate away from your site after viewing only one page.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view the bounce rate, the bounce rate data is not displayed. There is no response from the application, and the bounce rate statistics are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the bounce rate is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view the bounce rate was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+................................................................................................
+
+Test Scenario:86
+
+Bug Report Title: Unable to View Average Time Spent
+
+Bug Report ID: OTK-014
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to view the average time spent.
+
+Expected Result: Clicking on the option to view the average time spent should display statistics showing the average amount of time users spend on your website or application.
+
+Look for the average time spent data.
+
+Expected Result: You should be able to see accurate data regarding the average time spent by users, helping you analyze user engagement.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view the average time spent, the average time spent data is not displayed. There is no response from the application, and the statistics are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the average time spent is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view the average time spent was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...........................................................................................
+
+Test Scenario:87
+
+Bug Report Title: Unable to View "Top Social Traffic" Data
+
+Bug Report ID: OTK-015
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to view the "Top Social Traffic" data.
+
+Expected Result: Clicking on the option to view "Top Social Traffic" should display statistics showing the top sources of social traffic to your website or application.
+
+Look for the "Top Social Traffic" data.
+
+Expected Result: You should be able to see accurate data regarding the top sources of social traffic, helping you analyze the performance of social media channels.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view "Top Social Traffic" data, the data is not displayed. There is no response from the application, and the statistics are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the "Top Social Traffic" data is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view "Top Social Traffic" data was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+................................................................................................
+Test Scenario:88
+
+Bug Report Title: Unable to View "Top Active Pages" Data
+
+Bug Report ID: OTK-016
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to view the "Top Active Pages" data.
+
+Expected Result: Clicking on the option to view "Top Active Pages" should display statistics showing the most actively visited pages on your website or application.
+
+Look for the "Top Active Pages" data.
+
+Expected Result: You should be able to see accurate data regarding the top active pages, helping you identify the most popular pages on your site.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view "Top Active Pages" data, the data is not displayed. There is no response from the application, and the statistics are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the "Top Active Pages" data is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view "Top Active Pages" data was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.........................................................................................................................
+
+Test Scenario:89
+
+Bug Report Title: Unable to Compare Acquisition Data
+
+Bug Report ID: OTK-017
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to compare acquisition data.
+
+Expected Result: Clicking on the option to compare acquisition data should open a comparison interface or section, allowing you to analyze and compare acquisition data.
+
+Attempt to compare acquisition data for different time periods, sources, or campaigns.
+
+Expected Result: You should be able to select and compare acquisition data for different parameters, such as time periods, sources, or campaigns.
+
+View the compared acquisition data.
+
+Expected Result: The compared acquisition data should be displayed, helping you analyze the performance of different acquisition channels or campaigns.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to compare acquisition data, the comparison interface or section does not open. There is no response from the application, and acquisition data cannot be compared.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the comparison of acquisition data is attempted.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to compare acquisition data was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+..........................................................................................................
+
+Test Scenario:90
+
+Bug Report Title: Unable to Block by Location
+
+Bug Report ID: OTK-018
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to block users or traffic by location.
+
+Expected Result: Clicking on the option to block by location should open a location blocking interface or section, allowing you to specify the locations you want to block.
+
+Attempt to specify the locations you want to block (e.g., by country, region, or city).
+
+Expected Result: You should be able to enter the location details without issues and specify the locations to block.
+
+Save the location blocking configuration.
+
+Expected Result: The specified locations should be successfully blocked, and traffic from those locations should be restricted.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to block by location, the location blocking interface or section does not open. There is no response from the application, and you are unable to specify or save the location blocking configuration.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the location blocking feature is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to block by location was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+..................................................................................................................
+Test Scenario:91
+
+
+Bug Report Title: Unable to Create a Campaign
+
+Bug Report ID: OTK-019
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to create a campaign.
+
+Expected Result: Clicking on the option to create a campaign should open a campaign creation interface or section, allowing you to set up a new campaign.
+
+Attempt to set up a new campaign by specifying campaign details such as name, start date, end date, and target audience.
+
+Expected Result: You should be able to enter the campaign details without issues and set up a new campaign.
+
+Save the campaign configuration.
+
+Expected Result: The new campaign should be successfully created, and it should be visible in your list of campaigns.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to create a campaign, the campaign creation interface or section does not open. There is no response from the application, and you are unable to specify or save the campaign configuration.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the campaign creation feature is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to create campaigns was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.....................................................................................................
+Test Scenario:92
+
+
+Bug Report Title: User Not Receiving Notifications
+
+Bug Report ID: OTK-020
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure the user is logged into their O-Tracker account.
+
+Trigger a notification or access a section of the application where notifications are expected to be received.
+
+Expected Result: When notifications are triggered or when accessing relevant sections, the user should receive notifications as per the application's notification settings.
+
+Verify whether notifications are received by the user.
+
+Expected Result: Notifications should be visible to the user, and they should receive timely notifications for relevant events or updates.
+
+Actual Result: Describe the observed behavior or issue.
+
+After triggering notifications or accessing sections where notifications are expected, the user does not receive any notifications. There is no notification delivery to the user.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time notifications are expected.
+Other options and features within O-Tracker appear to be functioning correctly.
+The user's notification settings appear to be configured correctly.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+......................................................................................................................
+Test Scenario:93
+
+Bug Report Title: Unable to View Customized Notifications
+
+Bug Report ID: OTK-021
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to view customized notifications.
+
+Expected Result: Clicking on the option to view customized notifications should open a notifications interface or section, displaying customized notifications relevant to your account or settings.
+
+Look for the customized notifications.
+
+Expected Result: You should be able to see customized notifications that are relevant to your account, settings, or activities within the application.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view customized notifications, the notifications interface or section does not open. There is no response from the application, and the customized notifications are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the customized notifications feature is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view customized notifications was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+...........................................................................................
+
+Test Scenario:94
+
+Bug Report Title: Unable to Download Report
+
+Bug Report ID: OTK-022
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to download a report.
+
+Expected Result: Clicking on the option to download a report should initiate the download of the specified report file.
+
+Attempt to download the report.
+
+Expected Result: The download should start, and you should be able to save the report file to your local device.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to download a report, clicking on the download option does not initiate the download. There is no response from the application, and the report file is not downloadable.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time a report download is attempted.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to download reports was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+........................................................................................................
+
+Test Scenario:95
+
+Bug Report Title: Unable to View "Top Referrals" Data
+
+Bug Report ID: OTK-023
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to view the "Top Referrals" data.
+
+Expected Result: Clicking on the option to view "Top Referrals" should display statistics showing the top referring sources of traffic to your website or application.
+
+Look for the "Top Referrals" data.
+
+Expected Result: You should be able to see accurate data regarding the top referring sources, helping you analyze the performance of different referral channels.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view "Top Referrals" data, the data is not displayed. There is no response from the application, and the statistics are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the "Top Referrals" data is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view "Top Referrals" data was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+..........................................................................................................
+
+Test Scenario:96
+
+Bug Report Title: "Last Ten Minutes Activities" Not Reflecting
+
+Bug Report ID: OTK-024
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to view the "Last Ten Minutes Activities" data.
+
+Expected Result: Clicking on the option to view "Last Ten Minutes Activities" should display real-time data showing the activities that have occurred in the last ten minutes.
+
+Observe the "Last Ten Minutes Activities" data.
+
+Expected Result: You should be able to see real-time data regarding the recent activities, helping you monitor the current user interactions or events.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view "Last Ten Minutes Activities" data, the data is not reflecting in real-time. There is no response from the application, and the activities that have occurred in the last ten minutes are not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the "Last Ten Minutes Activities" data is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view "Last Ten Minutes Activities" data in real-time was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+..........................................................................................
+
+Test Scenario:97
+
+Bug Report Title: Profiling Data Not Displaying
+
+Bug Report ID: OTK-025
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where profiling data should be displayed.
+
+Expected Result: Clicking on the option to view profiling data should display user profiling information and data relevant to your account or settings.
+
+Look for the profiling data.
+
+Expected Result: You should be able to see profiling data that is relevant to your account or settings, helping you analyze user characteristics or behavior.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to view profiling data, the profiling data is not displayed. There is no response from the application, and the profiling information is not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time profiling data is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to view profiling data was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.................................................................................................................
+Test Scenario:98
+
+Bug Report Title: "Block List" Page Not Appearing
+
+Bug Report ID: OTK-026
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Attempt to access the "Block List" page.
+
+Expected Result: Clicking on the option to access the "Block List" page should open a page or section where you can manage and view the list of blocked items or users.
+
+Observe whether the "Block List" page appears.
+
+Expected Result: The "Block List" page should be visible, allowing you to manage and view the list of blocked items or users.
+
+Actual Result: Describe the observed behavior or issue.
+
+After attempting to access the "Block List" page, the page does not appear. There is no response from the application, and the "Block List" page is not visible.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time the "Block List" page is accessed.
+Other options and features within O-Tracker appear to be functioning correctly.
+The "Block List" page was previously accessible in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+.....................................................................................
+Test Scenario:99
+
+Bug Report Title: Campaign Creation Without Mandatory Field
+
+Bug Report ID: OTK-027
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you can create a campaign.
+
+Expected Result: Clicking on the option to create a campaign should open a campaign creation interface or section, with mandatory fields that need to be filled in.
+
+Attempt to create a campaign without filling in one of the mandatory fields (e.g., campaign name, start date, or end date).
+
+Expected Result: The application should prevent the creation of the campaign and display an error message indicating that mandatory fields must be filled in.
+
+Actual Result: Describe the observed behavior or issue.
+
+After attempting to create a campaign without filling in a mandatory field, the campaign is created without any error messages or prevention. The application allows the creation of the campaign even though a mandatory field is left empty.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time a campaign is created without filling in a mandatory field.
+Other options and features within O-Tracker appear to be functioning correctly.
+In previous versions of O-Tracker, the application correctly prevented the creation of a campaign without mandatory field completion.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+........................................................................................................
+
+Test Scenario:100
+
+Bug Report Title: Unable to Block Multiple IP Addresses
+
+Bug Report ID: OTK-028
+
+Priority: Medium
+
+Severity: Moderate
+
+Steps to Reproduce:
+
+Open O-Tracker.
+
+Ensure you are logged into your O-Tracker account.
+
+Access the section or functionality where you should be able to block multiple IP addresses.
+
+Expected Result: Clicking on the option to block IP addresses should open a blocking interface or section, allowing you to specify and block multiple IP addresses.
+
+Attempt to specify and block multiple IP addresses (e.g., entering multiple IP addresses separated by commas or semicolons).
+
+Expected Result: You should be able to enter and block multiple IP addresses without issues.
+
+Save the IP address blocking configuration.
+
+Expected Result: The specified IP addresses should be successfully blocked, and the blocking configuration should include all the specified IP addresses.
+
+Actual Result: Describe the observed behavior or issue.
+
+After accessing the section or option to block multiple IP addresses, the application does not allow you to specify and block more than one IP address. There is no response from the application, and only one IP address can be blocked at a time.
+Notes:
+
+This issue was encountered on O-Tracker version [specify the version and build].
+The issue is consistent and occurs every time multiple IP addresses are attempted to be blocked.
+Other options and features within O-Tracker appear to be functioning correctly.
+The ability to block multiple IP addresses was previously working in earlier versions of O-Tracker.
+Attachments:
+
+If available, attach screenshots or screen recordings demonstrating the issue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
